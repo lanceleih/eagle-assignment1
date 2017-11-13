@@ -33,6 +33,8 @@ class PlaneTest extends TestCase {
         $data = (new FleetInfo())->all();
         $this->CI->plane->budget = 10000;
         $this->CI->plane->planes = $data;
+        
+        var_dump($data);
 
         $this->assertEquals(600, $this->CI->plane->budget);
         $this->assertCount(3, $this->CI->plane->planes);

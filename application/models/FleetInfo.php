@@ -30,8 +30,17 @@ class FleetInfo extends CSV_Model
 
     }
 
-
     // retrieve a single plane, null if not found
+    
+    // provide form validation rules
+    public function rules() {
+        $config = array(
+            ['field' => 'manufacturer', 'label' => 'Manufacturer', 'rules' => 'alpha_numeric_spaces|max_length[64]'],
+            ['field' => 'model', 'label' => 'Model', 'rules' => 'alpha_numeric_spaces|max_length[64]'],
+            ['field' => 'seats', 'label' => 'Seats', 'rules' => 'integer|less_than[1000]'],
+        );
+        return $config;
+    }
 
 
 
