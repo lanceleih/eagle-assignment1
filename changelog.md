@@ -250,5 +250,54 @@ Release Date: 11/12/2017
     Core
     
     Data
+
+## *Version 2.0.8* 
+Release Date: 11/12/2017
+
+### Added
+    Views:
+        - booking.php: form layout (TE)    
+    Controllers:
+        - Booking.php: displays booking, still needs work (TE)
+    
+### Updated            
+    Config:
+        - added Booking to menu bar     (TE)    
         
+      
+
+   ## *Version 2.0.9* 
+   Release Date: 11/12/2017
    
+   ### Added
+   
+       Core
+   
+       Data
+       
+       Models
+        -Airportinfo added to help with CSV files (NM)
+   
+   
+       
+   ### Updated
+       
+       Controllers
+        - Fleet fixed data structure (NM)
+        - Flights fixed data structure (NM)
+        - Welcome fixed data structure (NM)   
+   
+       Models
+           -flightinfo fixed data structure (NM)
+           - got rid of that pesky autoload function inside flightInfo (LH)
+   
+       Views
+   
+       Config
+           
+       
+       Tests
+   
+       Core
+       
+       Data

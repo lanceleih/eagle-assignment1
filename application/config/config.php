@@ -8,6 +8,7 @@ $config['menu_choices'] = array(
         array('name' => 'Home', 'link' => '/'),
         array('name' => 'Fleet', 'link' => '/fleet'),
         array('name' => 'Flights', 'link' => '/flights'),
+        array('name' => 'Booking', 'link' => '/booking')     
         ),
     'userroledata' => array (
         array('title' => 'Guest', 'role' => ROLE_GUEST),
